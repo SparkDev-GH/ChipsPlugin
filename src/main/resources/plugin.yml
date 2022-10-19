@@ -1,0 +1,16 @@
+name: ChipsPlugin
+version: '${project.version}'
+main: chipsplugin.chipsplugin.Main
+api-version: 1.19
+prefix: Chips
+load: STARTUP
+authors: [ Sp4rkDev ]
+description: Plugin für den Chips Server
+
+commands:
+  friend:
+    aliases: [ f, friends]
+  party:
+    aliases: [ p ]
+  scoreboardc:
+    aliases: [ sc, scc]
